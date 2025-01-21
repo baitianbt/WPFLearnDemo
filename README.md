@@ -16,3 +16,9 @@ MultiDataTrigger
 eventTrigger	事件触发器
 
 
+
+## 3. binding
+
+### 3.1 binding简介
+
+### 3.2 binding模式
