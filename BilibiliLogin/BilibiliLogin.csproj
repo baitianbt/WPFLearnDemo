@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="images\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="images\bilibili.png" />
+      <Resource Include="images\bilibili.png" />
+      <None Remove="images\bilibili_word.png" />
+      <Resource Include="images\bilibili_word.png" />
+      <None Remove="images\close.png" />
+      <Resource Include="images\close.png" />
+      <None Remove="images\password.png" />
+      <Resource Include="images\password.png" />
+    </ItemGroup>
+
+</Project>
