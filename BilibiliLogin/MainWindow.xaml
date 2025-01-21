@@ -11,6 +11,10 @@
         Background="Transparent"
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="450" Width="800">
+
+    <Window.Resources>
+       
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.35*"/>
@@ -32,6 +36,7 @@
             <TextBlock Text="bilibili" Foreground="WhiteSmoke" Margin="0,100,0,30" FontSize="32" FontWeight = "Bold" FontFamily="Arial" TextAlignment="Center"></TextBlock>
             <TextBlock Margin="20,0,20,0" Text="Welcome to the bilibili.You can register by clicking the button below" 
                        TextWrapping="WrapWithOverflow" Foreground="White"
+                       Style="{StaticResource TextBlockStyle}"
                        TextAlignment="Center" LineHeight="20px"></TextBlock>
             <Button Margin="0,80,0,0" Content="Sign Up" Foreground="White" Background="Transparent" BorderBrush="Transparent" Width="200"></Button>
         </StackPanel>
@@ -60,11 +65,11 @@
                        FontFamily="Arial" Foreground="#878787" ></TextBlock>
             <Border Margin="0,30,0,0" Height="35" Width="340" Background="#878787" BorderThickness="1" CornerRadius="20">
                 <StackPanel Orientation="Horizontal">
-                     <!--<Ellipse Width="25" Height="25" Margin="5,0,0,0"> 
+                     <Ellipse Width="25" Height="25" Margin="5,0,0,0"> 
                          <Ellipse.Fill> 
                              <ImageBrush ImageSource="images/user.png"></ImageBrush> 
                          </Ellipse.Fill> 
-                     </Ellipse>--> 
+                     </Ellipse> 
                     <TextBlock Margin="5,0,0,0" Text="UserName" FontSize="20" FontFamily="Arial" 
                                TextAlignment="Left" VerticalAlignment="Center" Foreground="WhiteSmoke"
                                Background="Transparent" Width="280"></TextBlock>

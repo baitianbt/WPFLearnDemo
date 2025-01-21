@@ -9,11 +9,11 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="images\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Remove="images\bilibili.png" />
+      <None Remove="images\qq.png" />
+      <None Remove="images\user.png" />
+      <None Remove="images\wechat.png" />
+      <None Remove="images\weibo.png" />
       <Resource Include="images\bilibili.png" />
       <None Remove="images\bilibili_word.png" />
       <Resource Include="images\bilibili_word.png" />
@@ -21,6 +21,10 @@
       <Resource Include="images\close.png" />
       <None Remove="images\password.png" />
       <Resource Include="images\password.png" />
+      <Resource Include="images\qq.png" />
+      <Resource Include="images\user.png" />
+      <Resource Include="images\wechat.png" />
+      <Resource Include="images\weibo.png" />
     </ItemGroup>
 
 </Project>

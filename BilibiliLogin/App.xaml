@@ -4,7 +4,6 @@
              xmlns:local="clr-namespace:BilibiliLogin"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <SolidColorBrush x:Key="Solid3" Color="Pink"/>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="/ResourceDemoDic.xaml"/>
