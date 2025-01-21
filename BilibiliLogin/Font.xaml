@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FontFamily x:Key="Yunmobei">
+        /BilibiliLogin;Component/Resource/Fonts/Yunmobei.ttf#Yunmobeifont
+        <!--C:\Users\des\RiderProjects\WPFLearnDemo\BilibiliLogin\Resource\Fonts\Yunmobei.ttf-->
+    </FontFamily>
+    <FontFamily x:Key="zihunjianqi">
+        /BilibiliLogin;Component/Resource/Fonts/字魂剑气体.ttf#字魂剑气手书(商用需授权)
+        <!--C:\Users\des\RiderProjects\WPFLearnDemo\BilibiliLogin\Resource\Fonts\Yunmobei.ttf-->
+    </FontFamily>
+</ResourceDictionary>

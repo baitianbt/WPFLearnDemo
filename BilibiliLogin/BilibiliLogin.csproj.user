@@ -5,12 +5,21 @@
     <Compile Update="ControlTemplate.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="FontDemo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ResourceDemo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="ControlTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Font.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FontDemo.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ResourceBtn.xaml">

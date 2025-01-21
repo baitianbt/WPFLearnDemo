@@ -1,0 +1,13 @@
+﻿<Window x:Class="BilibiliLogin.FontDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BilibiliLogin"
+        mc:Ignorable="d"
+        Title="FontDemo" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock Text="Hello World!" FontSize="32" FontWeight="Bold" FontFamily="{StaticResource Yunmobei}" Foreground="Black"></TextBlock>
+        <TextBlock Text="中文字体!" FontSize="32" FontWeight="Bold" FontFamily="{StaticResource zihunjianqi}" Foreground="Black"></TextBlock>
+    </StackPanel>
+</Window>

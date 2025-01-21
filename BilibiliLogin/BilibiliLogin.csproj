@@ -9,22 +9,26 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="images\bilibili.png" />
-      <None Remove="images\qq.png" />
-      <None Remove="images\user.png" />
-      <None Remove="images\wechat.png" />
-      <None Remove="images\weibo.png" />
-      <Resource Include="images\bilibili.png" />
-      <None Remove="images\bilibili_word.png" />
-      <Resource Include="images\bilibili_word.png" />
-      <None Remove="images\close.png" />
-      <Resource Include="images\close.png" />
-      <None Remove="images\password.png" />
-      <Resource Include="images\password.png" />
-      <Resource Include="images\qq.png" />
-      <Resource Include="images\user.png" />
-      <Resource Include="images\wechat.png" />
-      <Resource Include="images\weibo.png" />
+      <None Remove="Images\bilibili.png" />
+      <None Remove="Images\qq.png" />
+      <None Remove="Images\user.png" />
+      <None Remove="Images\wechat.png" />
+      <None Remove="Images\weibo.png" />
+      <None Remove="Resource\Fonts\Yunmobei.ttf" />
+      <None Remove="Resource\Fonts\字魂剑气体.ttf" />
+      <Resource Include="Images\bilibili.png" />
+      <None Remove="Images\bilibili_word.png" />
+      <Resource Include="Images\bilibili_word.png" />
+      <None Remove="Images\close.png" />
+      <Resource Include="Images\close.png" />
+      <None Remove="Images\password.png" />
+      <Resource Include="Images\password.png" />
+      <Resource Include="Images\qq.png" />
+      <Resource Include="Images\user.png" />
+      <Resource Include="Images\wechat.png" />
+      <Resource Include="Images\weibo.png" />
+      <Resource Include="Resource\Fonts\Yunmobei.ttf" />
+      <Resource Include="Resource\Fonts\字魂剑气体.ttf" />
     </ItemGroup>
 
 </Project>
