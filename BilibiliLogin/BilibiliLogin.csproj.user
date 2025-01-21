@@ -2,11 +2,20 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="ControlTemplate.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ResourceDemo.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ControlTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ResourceBtn.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="ResourceDemo.xaml">
       <SubType>Designer</SubType>
     </Page>
