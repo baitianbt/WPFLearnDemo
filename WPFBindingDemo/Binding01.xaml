@@ -9,5 +9,6 @@
     <StackPanel>
         <TextBox x:Name="TextBoxInput" Text="{Binding ElementName=SliderOne, Path=Value,Mode=TwoWay}" BorderBrush="Black" Margin="10"/>
         <Slider x:Name="SliderOne" IsSnapToTickEnabled="True" Minimum="0" Maximum="100" Margin="10"/>
+   
     </StackPanel>
 </Window>
